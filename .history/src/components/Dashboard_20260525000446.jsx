@@ -90,7 +90,7 @@ export default function Dashboard({ user, leads, setLeads, logout }) {
   ).length
 
   return (
-   <div className="min-h-screen p-3 md:p-6 bg-gray-100 overflow-x-hidden overflow-y-visible">
+    <div className="min-h-screen p-3 md:p-6 bg-gray-100">
 
       <div className="flex flex-col md:flex-row gap-4 justify-between md:items-center mb-6 bg-white p-4 md:p-5 rounded-xl shadow-md">
 
@@ -121,22 +121,18 @@ export default function Dashboard({ user, leads, setLeads, logout }) {
   {showNotifications && (
     <div
       className="
-           fixed
-    top-32
-    md:top-24
-    left-4
-    md:left-auto
-    md:right-24
-    translate-x-0
-    w-[92%]
-    max-w-sm
-    bg-white
-    shadow-2xl
-    rounded-2xl
-    p-4
-    z-[9999]
-    border
-
+        fixed
+        top-24
+        left-1/2
+        -translate-x-1/2
+        w-[92%]
+        max-w-sm
+        bg-white
+        shadow-2xl
+        rounded-2xl
+        p-4
+        z-[9999]
+        border
       "
     >
 

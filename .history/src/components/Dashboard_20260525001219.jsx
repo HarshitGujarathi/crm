@@ -121,7 +121,9 @@ export default function Dashboard({ user, leads, setLeads, logout }) {
   {showNotifications && (
     <div
       className="
-           fixed
+       <div
+  className="
+    fixed
     top-32
     md:top-24
     left-4
@@ -136,7 +138,8 @@ export default function Dashboard({ user, leads, setLeads, logout }) {
     p-4
     z-[9999]
     border
-
+  "
+>
       "
     >
 

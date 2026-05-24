@@ -121,7 +121,9 @@ export default function Dashboard({ user, leads, setLeads, logout }) {
   {showNotifications && (
     <div
       className="
-           fixed
+       <div
+  className="
+    fixed
     top-32
     md:top-24
     left-4
@@ -136,10 +138,9 @@ export default function Dashboard({ user, leads, setLeads, logout }) {
     p-4
     z-[9999]
     border
-
-      "
-    >
-
+  "
+>
+     
       <div className="flex items-center justify-between mb-3">
         <h3 className="font-bold text-lg">
           Notifications
