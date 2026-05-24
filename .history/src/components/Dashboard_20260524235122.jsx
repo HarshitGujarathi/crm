@@ -91,7 +91,7 @@ export default function Dashboard({ user, leads, setLeads, logout }) {
 
   return (
      
-    <div className="bg-white rounded-2xl shadow-md p-4 sm:p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 w-full overflow-x-hidden">
+    <div className="bg-white rounded-2xl shadow-md p-4 sm:p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 overflow-hidden">
   
   {/* Left Content */}
   <div className="min-w-0">
