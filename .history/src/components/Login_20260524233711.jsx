@@ -1,4 +1,8 @@
- 
+# Update for `src/components/Login.jsx`
+
+Replace your current `Login.jsx` with this updated version.
+
+```jsx
 import { useState } from 'react'
 import { users } from '../data'
 
@@ -98,4 +102,13 @@ export default function Login({ onLogin }) {
     </div>
   )
 }
- 
+```
+
+## What this adds
+
+* Copy button for each demo user
+* Automatically fills username + password fields
+* Copies credentials to clipboard
+* Shows `Copied!` feedback
+* Fully dynamic using `users` array from `data.js`
+* No need to manually type credentials anymore
